@@ -101,4 +101,14 @@ function bankAccountSimulation() {
   }
 }
 
-bankAccountSimulation();
+bankAccountSimulation();/*
+
+/*hacer una funcion que reciba como parametro un arreglo de numeros y como salida retornar un arreglo del mismo tamaño donde en cada posicion va a colocar par o impar de acuerdo con el aerreglo de entrada 
+
+function parImpar(arr) {
+  return arr.map(num => (num % 2 === 0 ? "par" : "impar"));
+}
+// Ejemplo de uso
+const numeros = [1, 2, 3, 4, 5, 6];
+const resultado = parImpar(numeros);
+console.log(resultado); // ["impar", "par", "impar", "par", "impar", "par"]*/
